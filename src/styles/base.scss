@@ -1,0 +1,44 @@
+.visually-hidden {
+	position: absolute;
+
+	overflow: hidden;
+	clip: rect(1px 1px 1px 1px);
+
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: 0;
+
+	border: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: $font_family_open_sans;
+	font-size: $fs_text_default;
+	line-height: $lh_text_default;
+	font-weight: 400;
+
+	color: $main_black;
+}
+
+main {
+	min-width: $breakpoint_mobile;
+}
+
+a,
+button,
+label,
+input,
+select {
+	cursor: pointer;
+}

@@ -1,0 +1,20 @@
+$font_family_mukta: 'Mukta', sans-serif;
+$font_family_noto_sans: 'Noto Sans', sans-serif;
+$font_family_open_sans: 'Open Sans', sans-serif;
+
+$fs_text_default: 12px;
+$lh_text_default: 16px;
+
+$main_black: #333333;
+
+$breakpoint_mobile: 360px;
+$breakpoint_tablet: 768px;
+$breakpoint_desktop: 1024px;
+
+$basic_padding: 24px;
+
+$content_width_mobile: $breakpoint_mobile - $basic_padding * 2;
+$content_width_deskop: $breakpoint_desktop - $basic_padding * 2;
+
+$retina_dppx: 1.5dppx;
+$retina_dpi: 144dpi;
